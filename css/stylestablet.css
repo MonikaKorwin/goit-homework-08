@@ -339,5 +339,47 @@
         display: block;
         min-width: 169px;
     }
+/* potfolio */
+.list-bottoms {
+   
+    display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+    gap: 24px;
+    margin: 64px 0;
+  }
+
+
+.navigation-portolio-after::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: var(--pressedstate-color);
+    border-radius: 2px;
+    width: 66px;
+}
+.portfolio {
+    display: flex;
+flex-direction: row;
+        flex-wrap: wrap;
+    padding-left: 0px;
+    margin: 0 auto;
+    gap:24px;
+margin-bottom: 96px;
+}
+.img-portfolio {
+    width: 356px;
+    height: 300px;
+}
+
+.portfolio-list {
+    width: auto;
+}
+
+
+
 
 }
